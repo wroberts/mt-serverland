@@ -18,7 +18,7 @@ from serverland.workers.TranslationRequestMessage_pb2 import \
      TranslationRequestMessage
 import uuid
 
-MAX_REQUESTS_PER_MINUTE = 25
+MAX_REQUESTS_PER_MINUTE = 5
 
 class RequestHandler(BaseHandler):
     '''API handler for translation request queries.'''
